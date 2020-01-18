@@ -30,7 +30,7 @@ about_content: | # this will include new lines to allow paragraphs
   Experience in architecting frontend codebase.
   A well-known figure in the programming community, open-source creator, and writer for many technical articles.
 
-  I am most skilled in: <mark>Web</mark> and <mark>Developer</mark>
+  I am most skilled in: <mark>Web</mark> <mark>Developer</mark>
 
 # Projects Section
 # projects_title: Projects
@@ -45,10 +45,8 @@ about_content: | # this will include new lines to allow paragraphs
 # more_title: A Little More About Me
 more_content: | # this will include new lines to allow paragraphs
   Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-   - Rock climbing
    - Gaming
-   - Knitting
-   - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+#   - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
 
 # Footer
 footer_show_references: true
