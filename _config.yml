@@ -24,9 +24,13 @@ linkedin_username: rizky-prasetyo-a4709b85
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  Hi, my name's Rizky and I'm a Junior Web Progamming. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  An experienced software engineer especially in frontend and backend side.
+  Having deep knowledge in HTML, CSS (with its pre-processor) and JavaScript with the various framework. Write good quality, well tested, and fast delivered code.
+  Experience in architecting frontend codebase.
+  A well-known figure in the programming community, open-source creator, and writer for many technical articles.
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  I am most skilled in: <mark>Web</mark> and <mark>Developer</mark>
 
 # Projects Section
 # projects_title: Projects
