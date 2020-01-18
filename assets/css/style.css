@@ -1,0 +1,570 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Roboto, sans-serif;
+	font-weight: normal;
+	max-width: 100% !important;
+}
+
+a { 
+	text-decoration: none;  
+	-webkit-transition: all ease-in-out 0.3s;
+	-moz-transition: all ease-in-out 0.3s;
+	-ms-transition: all ease-in-out 0.3s;
+	-o-transition: all ease-in-out 0.3s;
+	transition: all ease-in-out 0.3s;	
+}
+
+li { list-style: none; }
+
+img { 
+	max-width: 100%; 
+	max-height: 100%; 
+}
+
+/* Bagian pertama */
+#pertama {
+	background: url('../img/bg-header.jpg') no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 650px;
+	padding-top: 30px;
+}
+
+.clear { clear: both; }
+
+.konten {
+	width: 960px;
+	margin: 0 auto;	
+}
+
+.kolom-3 {
+	width: 31%;
+	float: left;	
+}
+
+.tengah { margin: 0 3%; }
+
+#logo {
+	display: block;
+	width: 100px;
+	margin: 0 auto;
+	background-color: rgba(0, 140, 116, 0.9);
+	padding: 25px 15px;
+	-webkit-transition: all ease-in-out 0.3s;
+	-moz-transition: all ease-in-out 0.3s;
+	-ms-transition: all ease-in-out 0.3s;
+	-o-transition: all ease-in-out 0.3s;
+	transition: all ease-in-out 0.3s;	
+}
+
+#logo:hover {
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	transform: rotate(180deg);
+	background-color: #1a1a1a;
+}
+
+#menu {
+	background-color: #008c74;
+	color: #1a1a1a;
+	height: 50px;
+	line-height: 50px;
+	font-size: 20px;
+	margin-top: 40px;	
+	position: relative;	
+	border-bottom: 5px solid #00BD9C;
+}
+
+#menu a {
+	display: block;
+	text-align: center;
+	color: #ffffff;
+	letter-spacing: 0.5px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#menu a:hover { background-color: #00BD9C; }
+
+#menu a.current { background-color: #00BD9C; }
+
+#menu-text {
+	display: none;
+	color: white;
+	padding-left: 10px;
+}
+
+#box-welcome {
+	background-color: rgba(0, 140, 116, 0.7);
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	margin: 90px 0;
+	padding: 40px 0;
+}
+
+#box-welcome a {
+	display: block;
+	border: 2px solid white;
+	color: white;
+	padding: 8px 0;
+	margin: 25px auto 0 auto;
+	width: 200px;
+	border-radius: 50px;
+}
+
+#box-welcome a:hover {
+	background-color: white;
+	color: #008c74;
+}
+
+/* Bagian kedua */
+#kedua {	
+	background: 
+		 linear-gradient(
+	      rgba(0, 78, 64, 0.9), 
+	      rgba(0, 78, 64, 0.9)
+	    ),
+		 url('../img/bg-karya.jpg');	
+	-webkit-background-size: cover;
+	background-size: cover;		
+	color: white;
+	text-align: center;
+	padding: 50px 0 110px 0;
+}
+
+#kedua h2 {
+	font-size: 40px;
+	padding: 30px 0 50px 0;			
+	margin: 0 auto;
+	font-weight: 700;
+	text-transform: uppercase;
+	z-index: 0;
+	letter-spacing: 3px;
+}	
+
+#kedua img {
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	margin-bottom: 30px;
+	border: 7px solid #fff;
+}
+
+.pic {
+	margin-top: 20px;
+	position: relative;		
+}
+
+.pic p {	
+	position: absolute;
+	top: 7px;
+	left: 25px;
+	width: 250px;
+	height: 250px;
+	line-height: 250px;
+	text-align: center;
+	font-size: 25px;	
+	background-color: rgba(0, 0, 0, 0.8);
+	color: #00C1A0;
+	border-radius: 50%;
+	display: none;			
+}
+
+.pic:hover p {	
+	display: block;		
+}
+
+.desc {
+	width: 250px;
+	margin: 0 auto;
+	font-size: 18px;
+	text-align: center;
+	padding-bottom: 40px;	
+}
+
+.btn-lihat {
+	color: #fff;
+	font-size: 18px;
+	border: 2px solid #fff;
+	border-radius: 50px;
+	padding: 10px 30px;
+	font-weight: bold;
+	letter-spacing: 0.5px;
+}
+
+.btn-lihat:hover {
+	background-color: #fff;
+	color: #008c74;
+}
+
+/* Bagian ketiga */
+.kolom-2 {
+	float: left;
+	width: 46%; 
+	margin: 0 1.5%;
+}
+
+#ketiga {
+	background: 
+		 linear-gradient(
+	      rgba(255, 255, 255, 0.7), 
+	      rgba(255, 255, 255, 0.7)
+	    ),
+		 url('../img/bg-kontak.png') repeat;
+	padding-top: 10px;
+}
+
+#ketiga h2 {	
+	color: #008c74;
+	padding: 58px 0;			
+	margin: 0 auto;
+	font-size: 40px;
+	font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+#ketiga input, #ketiga textarea {
+	display: block;
+	width: 90%;
+	height: 50px;
+	margin-bottom: 20px;
+	border: 4px solid #eaeaea;
+	padding-left: 10px;
+	font-size: 15px;
+	color: #777;
+	-webkit-transition: all ease-in-out 0.3s;
+	-moz-transition: all ease-in-out 0.3s;
+	-ms-transition: all ease-in-out 0.3s;
+	-o-transition: all ease-in-out 0.3s;
+	transition: all ease-in-out 0.3s;	
+}
+
+#ketiga input:focus, #ketiga textarea:focus {
+	border: 4px solid #008c74;
+}
+
+#ketiga textarea {
+	padding-top: 10px;
+	height: 130px;
+}
+
+#ketiga input[type="submit"] {
+	background-color: white;
+	width: 100px;
+	padding-left: 0;
+}
+
+#ketiga input[type="submit"]:hover {
+	cursor: pointer;
+	border: 4px solid #008c74;
+}
+
+#ketiga input[type="submit"]:active {
+	background-color: #008c74;
+	color: white;
+}
+
+#ketiga iframe {
+	max-width: 450px;
+}
+
+/* Bagian footer */
+#footer {
+	background: #008c74;
+	color: white;
+	text-align: center;
+	padding: 20px 0;
+	margin-top: 50px;
+}
+
+
+/* Bagian portolio */
+.bg-karya {
+	background: 
+		 linear-gradient(
+	      rgba(255, 255, 255, 0.8), 
+	      rgba(255, 255, 255, 0.8)
+	    ),
+		 url('../img/bg-header.jpg');	
+	-webkit-background-size: cover;
+	background-size: cover;	 
+}
+
+.arrow-box {
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	color: white;
+	background-color: #008c74;
+	text-align: center;
+	font-size: 35px;
+	margin-top: 150px;
+	font-weight: bold;
+}
+
+.arrow-box:hover {
+	cursor: pointer;
+	background-color: #1a1a1a;
+}
+
+#karya-box {
+	width: 83%;
+	margin: 0 20px;
+}
+
+.arrow-box, #karya-box, #karya-box-kiri, #karya-box-kanan {
+	float: left;
+}
+
+#karya-box-kanan {
+	width: 500px;
+	height: 350px;
+}
+
+#karya-box-kanan img {
+	width: 100%;
+	height: 100%;
+}
+
+#karya-box-kiri {
+	width: 29%;
+	height: 320px;
+	padding: 30px 10px 0 10px;
+	background-color: rgba(0, 140, 116, 0.8);
+	color: white;
+	text-align: center;	
+}
+
+#karya-box-kiri h3 {
+	font-size: 30px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+#karya-box-kiri.desc {
+	font-size: 18px;
+}
+
+#karya-lain {
+	width: 480px;
+	margin: 50px auto 0 auto;		
+}
+
+#karya-lain img {
+	display: block;
+	float: left;
+	width: 140px;
+	margin-left: 10px;
+	border: 5px solid #fff;
+	-webkit-transition: all ease-in-out 0.3s;
+	-moz-transition: all ease-in-out 0.3s;
+	-ms-transition: all ease-in-out 0.3s;
+	-o-transition: all ease-in-out 0.3s;
+	transition: all ease-in-out 0.3s;		
+}
+
+#karya-lain img:hover { border-color: #00BD9C; }
+
+.error {
+	color: #DC1F00;
+	margin-top: -12px;
+	margin-bottom: 10px;
+	margin-right: 25px;
+	font-size: 12px;
+	text-align: right;
+}
+
+#nav-icon { display: none; }
+
+/* 
+-------------------- 
+---- RESPONSIVE ----
+-------------------- 
+*/
+
+@media only screen and (max-width: 1024px) {
+
+	
+	h2 { font-size: 15px; }
+	
+	#box-welcome { font-size: 20px; }
+
+	.pic p {
+		position: static;
+		margin: 0 auto;
+		display: block;
+		height: auto;
+		color: white;
+		background-color: transparent;
+		line-height: normal;
+		font-weight: bold;
+		padding: 5px 0;
+	}	
+
+	/* Portfolio */
+	#karya-box, #karya-box-kiri, #karya-box-kanan {
+		float: none;
+		width: 90%;
+		margin: 0 auto;
+		height: auto;
+	}
+
+	#karya-box img { width: 100%; }
+
+	#karya-box-kiri {
+		padding: 1% 2%;
+		width: 86%;
+		border-bottom: 5px solid #00BD9C;
+	}
+
+	#karya-box-kiri .desc {
+		padding-bottom: 5%;
+	}
+
+	.arrow-box {
+		position: fixed;
+		top: 30%;
+	}
+
+	.arrow-kiri { left: 0; }
+
+	.arrow-kanan { right: 0; }
+	
+	#karya-lain img {
+		width: 27%;
+	}
+
+}
+
+@media only screen and (max-width: 900px) {
+
+	#kedua {
+		padding: 50px 15px 110px 15px;
+	}
+
+	#kedua img {
+		width: 150px;
+		height: 150px;
+	}
+
+	#kedua p {
+		font-size: 15px;
+	}	
+
+	.btn-lihat {
+		font-size: 15px;
+		padding: 5px 20px;
+	}
+
+	#ketiga {
+		padding: 10px 10px 0 10px;
+	}
+
+}
+
+@media only screen and (max-width: 600px) {
+
+	#logo {
+		width: 80px;
+		margin: 0 auto;
+		padding: 20px 10px;
+	}
+
+	.kolom-3, .kolom-2 {
+		width: 90%;
+		margin: 0 auto;
+		float: none;
+	}
+
+	#pertama {
+		background-attachment: fixed;
+	}
+
+	#box-welcome {
+		font-size: 13px;
+		margin: 10px auto;
+	}
+
+	#box-welcome a {
+		font-size: 15px;
+		width: 130px;
+	}
+
+	#pertama { height: auto; }
+
+	h2 { font-size: 25px; }
+
+	#kedua img {
+		width: 200px;
+		height: 200px;
+	}
+
+	#kedua p {
+		font-size: 18px;
+	}
+
+	#kedua .kolom-3 {
+		margin: 50px auto;
+	}
+
+	/* Nav Menu */
+	
+	#menu .konten {
+		max-height: 0;
+		overflow: hidden;
+	}
+
+	#menu-text {
+		display: block;
+		padding-left: 20px;
+	}
+
+	.menu-open {
+		max-height: 100% !important;
+		padding: 10px 0;		
+	}
+
+	#menu {
+		height: auto;
+		font-size: 15px;
+		position: relative;
+		cursor: pointer;
+	}
+
+	#menu a {
+		background-color: #01806B;
+		border-bottom: 2px solid #008c74;
+	}
+
+	#nav-icon { 
+		display: block; 
+		position: absolute;
+		top: 15px;
+		right: 10px;
+	}
+
+	/* Portfolio */
+	#karya-box-kiri h3 {
+		font-size: 25px;
+		margin-top: 15px;
+		margin-bottom: 20px;
+	}
+
+	#karya-box-kiri .desc {
+		font-size: 16px;
+	}
+
+	.arrow-box {
+		width: 38px;
+		height: 38px;
+		line-height: 38px;
+		font-size: 25px;
+	}
+
+}

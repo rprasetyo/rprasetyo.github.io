@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Sekolah Koding | Pondok Programmer</title>
+	<link rel="shortcut icon" href="assets/img/favicon.png" />	
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css">
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css'>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script>
+		function toggleMenu() {
+			var menu = document.getElementById('menu-3');
+			menu.classList.toggle('menu-open');
+		}
+	</script>
+</head>
+<body>
+	
+	<div id="pertama">
+		<div id="header">
+			<img src="assets/img/logo.png" id="logo" alt="Logo Pondok Programmer">
+			<div id="menu">
+				<img src="assets/img/nav-icon.png" id="nav-icon" onclick="toggleMenu()">
+				<div id="menu-text" onclick="toggleMenu()">MENU</div>
+				<div class="konten" id="menu-3">
+					<a href="#home" class="kolom-3">Home</a>
+					<a href="#karya" class="kolom-3 tengah" onclick="return smoothScroll('karya')">Karya</a>
+					<a href="#kontak" class="kolom-3" onclick="return smoothScroll('kontak')">Kontak</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="clear"></div>
+
+		<div class="konten">
+			<div id="box-welcome">
+				<h1>Selamat Datang <br> di Website Pondok Programmer</h1>
+				<a href="#karya" onclick="return smoothScroll('karya')">Lihat Karya</a>
+			</div>
+		</div>
+	</div>
+
+	<div id="kedua">
+		<div class="konten" id="karya">
+			<h2>Karya</h2>
+
+			<div class="kolom-3">
+				<a href="portfolio.html">
+					<div class="pic">
+						<img src="assets/img/thub-1.jpg" alt="">
+						<p>Judul Karya</p>
+					</div>
+				</a>
+				<p class="desc">Ini deskripsi dari setiap proyek yang ditampilkan.</p>
+				<a href="portfolio.html" class="btn-lihat">Lihat</a>
+			</div>
+
+			<div class="kolom-3 tengah">
+				<a href="portfolio.html">
+					<div class="pic">
+						<img src="assets/img/thub-2.jpg" alt="">
+						<p>Judul Karya</p>
+					</div>
+				</a>
+				<p class="desc">Ini deskripsi dari setiap proyek yang ditampilkan.</p>
+				<a href="portfolio.html" class="btn-lihat">Lihat</a>
+			</div>
+
+			<div class="kolom-3">
+				<a href="portfolio.html">
+					<div class="pic">
+						<img src="assets/img/thub-3.jpg" alt="">
+						<p>Judul Karya</p>
+					</div>
+				</a>
+				<p class="desc">Ini deskripsi dari setiap proyek yang ditampilkan.</p>
+				<a href="portfolio.html" class="btn-lihat">Lihat</a>
+			</div>
+
+		</div>	
+		<div class="clear"></div>
+	</div>
+
+
+	<div id="ketiga">
+		<div class="konten" id="kontak">
+			<h2>Kontak</h2>
+
+			<div class="kolom-2">
+				<form action="" novalidate onsubmit="return validasi(this)">
+					<input type="text" name="nama" placeholder="Nama">
+					<input type="email" name="email" placeholder="Email">
+					<textarea name="pesan" cols="8" rows="40" placeholder="Pesan"></textarea>
+					<input type="submit" name="submit" value="Kirim">
+				</form>
+			</div>
+
+			<div class="kolom-2">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.4603535041997!2d110.39936051456269!3d-7.846791980149973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a56e7f763c331%3A0xa1d804786b054aa6!2sPondok+Programmer!5e0!3m2!1sen!2s!4v1460812917509" width="600" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div>
+
+			<div class="clear"></div>
+
+		</div>
+
+		<div id="footer">
+			<p>&copy; Pondok Programmer 2016</p>
+		</div>
+
+	</div>
+
+	<script src="assets/js/script.js"></script>
+
+</body>
+</html>
